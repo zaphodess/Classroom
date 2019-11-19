@@ -13,17 +13,12 @@ public class Classroom {
 
     Wilder Alex = new Wilder ("Alex", false);
 
-    /*Wilders Wilder [] = {Robert, Denis, Stranger, Karteileiche, Moni, Alex};
-      for (int i=0; i<Wilders.length;i++){
-        System.out.println (Wilders[i].whoAmI());
-      }*/
+    Wilder [] Gruppe = {Robert, Denis, Stranger, Karteileiche, Moni, Alex};
+      for (int i=0; i < Gruppe.length; i++){
+        System.out.println (Gruppe[i].whoAmI());
+      }
 
-      System.out.println (Robert.whoAmI());
-      System.out.println (Denis.whoAmI());
-      System.out.println (Stranger.whoAmI());
-      System.out.println (Karteileiche.whoAmI());
-      System.out.println (Moni.whoAmI());
-      System.out.println (Alex.whoAmI());
+
   }
 
 }
