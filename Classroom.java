@@ -17,6 +17,9 @@ public class Classroom {
       for (int i=0; i < Gruppe.length; i++){
         System.out.println (Gruppe[i].whoAmI());
       }
+      for (Wilder i : Gruppe) {
+        System.out.println (i.getFirstname() + " is singing " + Wilder.credo());
+      }
 
 
   }
